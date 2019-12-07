@@ -4,7 +4,7 @@ Created on Fri Feb  3 01:51:34 2017
 
 @author: Dimitrid
 """
-
+# I would not recommend to use this to parse the website. It was an initial try and it takes 5-6 hours to parse the entrire message board
 import bs4 as bs
 import requests
 import urllib
