@@ -4,7 +4,9 @@ Created on Sat Dec  7 01:16:34 2019
 
 @author: Dimitrid
 """
-
+# This is the version of the the file in the reposatory webMd_parse. The change I made was to add threading and it made the crawler way 
+# faster. The initial version took 5-6 hours to scrape the website compared to this where it took around 1 hour for a (24000,6) dataframe
+# with long posts.
 import bs4 as bs
 import requests
 import urllib
