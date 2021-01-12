@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan  6 15:54:45 2021
-
-@author: Dim
-"""
-
 import requests
 from spotify import (client_id, client_secret)
 import base64
