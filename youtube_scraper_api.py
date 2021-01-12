@@ -79,13 +79,12 @@ else:
         api.update_status(tweet)
 
         from twilio.rest import Client
-
+        from twillio_keys import (account_sid,auth_token)
+        
         word_list = ['career-high', 'career high', 'season-high', 'season-high']
         for video in videos:
             if any(x in title for x in word_list):
- 
-                account_sid = 'AC9861bca725b674a7479dcb3eb36b104e' 
-                auth_token = 'a0c170ce779eaa0a21ab8d9db2dd7a87' 
+
                 client = Client(account_sid, auth_token)
  
                 message = client.messages.create( 
